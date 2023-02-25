@@ -1,0 +1,22 @@
+{
+    "dbname": "ORACLE",
+    "mssqlconfig": {
+        "user": "sa",
+        "password": "tigerit",
+        "server": "192.168.106.****",
+        "database": "******",
+        "options": {
+            "enableArithAbort": true,
+            "encrypt": false
+        }
+    },
+    "oraclemonitorconfig": {
+        "user": "tigerit",
+        "password": "******",
+        "connectionString": "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.106.****8)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=******)))",
+        "poolAlias": "system",
+        "poolMin": 4,
+        "poolMax": 4,
+        "poolIncrement": 0
+    }
+}

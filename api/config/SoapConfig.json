@@ -1,0 +1,7 @@
+{
+    "gateway": "http://192.168.106.***/CoreServices/****.asmx?wsdl",
+
+    "event": "http://192.168.106.***/CoreServices/***.asmx?wsdl",
+
+    "device": "http://192.168.106.***/CoreServices/***.asmx?wsdl"
+}
